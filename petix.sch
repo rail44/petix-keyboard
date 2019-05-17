@@ -1,0 +1,854 @@
+EESchema Schematic File Version 4
+LIBS:petix-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 4550 3300 2    50   Input ~ 0
+col6
+Text GLabel 3450 3600 2    50   Input ~ 0
+col4
+Text GLabel 2900 3600 2    50   Input ~ 0
+col3
+Text GLabel 2350 3600 2    50   Input ~ 0
+col2
+Text GLabel 1800 3600 2    50   Input ~ 0
+col1
+Text GLabel 1250 3600 2    50   Input ~ 0
+col0
+Wire Wire Line
+	4000 3300 4000 3600
+Connection ~ 4000 3300
+Wire Wire Line
+	4000 2550 4000 3300
+Connection ~ 4000 2550
+Wire Wire Line
+	4000 1800 4000 2550
+Connection ~ 4000 1800
+Wire Wire Line
+	4000 1050 4000 1800
+Wire Wire Line
+	3450 3300 3450 3600
+Connection ~ 3450 3300
+Wire Wire Line
+	3450 2550 3450 3300
+Connection ~ 3450 2550
+Wire Wire Line
+	3450 1800 3450 2550
+Connection ~ 3450 1800
+Wire Wire Line
+	3450 1050 3450 1800
+Wire Wire Line
+	2900 3300 2900 3600
+Connection ~ 2900 3300
+Wire Wire Line
+	2900 2550 2900 3300
+Connection ~ 2900 2550
+Wire Wire Line
+	2900 1800 2900 2550
+Connection ~ 2900 1800
+Wire Wire Line
+	2900 1050 2900 1800
+Wire Wire Line
+	2350 3300 2350 2550
+Connection ~ 2350 3300
+Wire Wire Line
+	2350 2550 2350 1800
+Connection ~ 2350 2550
+Wire Wire Line
+	2350 1800 2350 1050
+Connection ~ 2350 1800
+Wire Wire Line
+	2350 3600 2350 3300
+Wire Wire Line
+	1800 3300 1800 3600
+Connection ~ 1800 3300
+Wire Wire Line
+	1800 2550 1800 3300
+Connection ~ 1800 2550
+Wire Wire Line
+	1800 1800 1800 2550
+Connection ~ 1800 1800
+Wire Wire Line
+	1800 1050 1800 1800
+Wire Wire Line
+	1250 3300 1250 3600
+Connection ~ 1250 3300
+Wire Wire Line
+	1250 2550 1250 3300
+Connection ~ 1250 2550
+Wire Wire Line
+	1250 1800 1250 2550
+Connection ~ 1250 1800
+Wire Wire Line
+	1250 1050 1250 1800
+Wire Wire Line
+	3600 2900 4150 2900
+Connection ~ 3600 2900
+Wire Wire Line
+	3050 2900 3600 2900
+Connection ~ 3050 2900
+Wire Wire Line
+	2500 2900 3050 2900
+Connection ~ 2500 2900
+Wire Wire Line
+	1950 2900 2500 2900
+Connection ~ 1950 2900
+Wire Wire Line
+	1400 2900 1950 2900
+Connection ~ 1400 2900
+$Comp
+L pspice:DIODE D24
+U 1 1 5CDE9B7D
+P 4350 3300
+F 0 "D24" H 4350 3127 50  0000 C CNN
+F 1 "DIODE" H 4350 3036 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 4350 3300 50  0001 C CNN
+F 3 "~" H 4350 3300 50  0001 C CNN
+	1    4350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 5CDE9B77
+P 4150 3100
+F 0 "SW24" V 4196 3052 50  0000 R CNN
+F 1 "SW_Push" V 4105 3052 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 4150 3300 50  0001 C CNN
+F 3 "~" H 4150 3300 50  0001 C CNN
+	1    4150 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D23
+U 1 1 5CDE9B71
+P 3800 3300
+F 0 "D23" H 3800 3127 50  0000 C CNN
+F 1 "DIODE" H 3800 3036 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 3800 3300 50  0001 C CNN
+F 3 "~" H 3800 3300 50  0001 C CNN
+	1    3800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 5CDE9B6B
+P 3600 3100
+F 0 "SW23" V 3646 3052 50  0000 R CNN
+F 1 "SW_Push" V 3555 3052 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 3600 3300 50  0001 C CNN
+F 3 "~" H 3600 3300 50  0001 C CNN
+	1    3600 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D22
+U 1 1 5CDE9B65
+P 3250 3300
+F 0 "D22" H 3250 3127 50  0000 C CNN
+F 1 "DIODE" H 3250 3036 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 3250 3300 50  0001 C CNN
+F 3 "~" H 3250 3300 50  0001 C CNN
+	1    3250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 5CDE9B5F
+P 3050 3100
+F 0 "SW22" V 3096 3052 50  0000 R CNN
+F 1 "SW_Push" V 3005 3052 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 3050 3300 50  0001 C CNN
+F 3 "~" H 3050 3300 50  0001 C CNN
+	1    3050 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D21
+U 1 1 5CDE9B59
+P 2700 3300
+F 0 "D21" H 2700 3127 50  0000 C CNN
+F 1 "DIODE" H 2700 3036 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 2700 3300 50  0001 C CNN
+F 3 "~" H 2700 3300 50  0001 C CNN
+	1    2700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 5CDE9B53
+P 2500 3100
+F 0 "SW21" V 2546 3052 50  0000 R CNN
+F 1 "SW_Push" V 2455 3052 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 2500 3300 50  0001 C CNN
+F 3 "~" H 2500 3300 50  0001 C CNN
+	1    2500 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D18
+U 1 1 5CDE9B47
+P 1050 3300
+F 0 "D18" H 1050 3127 50  0000 C CNN
+F 1 "DIODE" H 1050 3036 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 1050 3300 50  0001 C CNN
+F 3 "~" H 1050 3300 50  0001 C CNN
+	1    1050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D20
+U 1 1 5CDE9B40
+P 2150 3300
+F 0 "D20" H 2150 3127 50  0000 C CNN
+F 1 "DIODE" H 2150 3036 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 2150 3300 50  0001 C CNN
+F 3 "~" H 2150 3300 50  0001 C CNN
+	1    2150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5CDE9B3A
+P 1950 3100
+F 0 "SW20" V 1996 3052 50  0000 R CNN
+F 1 "SW_Push" V 1905 3052 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 1950 3300 50  0001 C CNN
+F 3 "~" H 1950 3300 50  0001 C CNN
+	1    1950 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D19
+U 1 1 5CDE9B34
+P 1600 3300
+F 0 "D19" H 1600 3127 50  0000 C CNN
+F 1 "DIODE" H 1600 3036 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 1600 3300 50  0001 C CNN
+F 3 "~" H 1600 3300 50  0001 C CNN
+	1    1600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5CDE9B2E
+P 1400 3100
+F 0 "SW19" V 1446 3052 50  0000 R CNN
+F 1 "SW_Push" V 1355 3052 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 1400 3300 50  0001 C CNN
+F 3 "~" H 1400 3300 50  0001 C CNN
+	1    1400 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 2150 3600 2150
+Connection ~ 3050 2150
+Wire Wire Line
+	2500 2150 3050 2150
+Connection ~ 2500 2150
+Wire Wire Line
+	1950 2150 2500 2150
+Connection ~ 1950 2150
+Wire Wire Line
+	1400 2150 1950 2150
+Connection ~ 1400 2150
+$Comp
+L pspice:DIODE D17
+U 1 1 5CDE3E1E
+P 3800 2550
+F 0 "D17" H 3800 2377 50  0000 C CNN
+F 1 "DIODE" H 3800 2286 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 3800 2550 50  0001 C CNN
+F 3 "~" H 3800 2550 50  0001 C CNN
+	1    3800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5CDE3E18
+P 3600 2350
+F 0 "SW17" V 3646 2302 50  0000 R CNN
+F 1 "SW_Push" V 3555 2302 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 3600 2550 50  0001 C CNN
+F 3 "~" H 3600 2550 50  0001 C CNN
+	1    3600 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D16
+U 1 1 5CDE3E12
+P 3250 2550
+F 0 "D16" H 3250 2377 50  0000 C CNN
+F 1 "DIODE" H 3250 2286 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 3250 2550 50  0001 C CNN
+F 3 "~" H 3250 2550 50  0001 C CNN
+	1    3250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5CDE3E0C
+P 3050 2350
+F 0 "SW16" V 3096 2302 50  0000 R CNN
+F 1 "SW_Push" V 3005 2302 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 3050 2550 50  0001 C CNN
+F 3 "~" H 3050 2550 50  0001 C CNN
+	1    3050 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D15
+U 1 1 5CDE3E06
+P 2700 2550
+F 0 "D15" H 2700 2377 50  0000 C CNN
+F 1 "DIODE" H 2700 2286 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 2700 2550 50  0001 C CNN
+F 3 "~" H 2700 2550 50  0001 C CNN
+	1    2700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5CDE3E00
+P 2500 2350
+F 0 "SW15" V 2546 2302 50  0000 R CNN
+F 1 "SW_Push" V 2455 2302 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 2500 2550 50  0001 C CNN
+F 3 "~" H 2500 2550 50  0001 C CNN
+	1    2500 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D12
+U 1 1 5CDE3DF4
+P 1050 2550
+F 0 "D12" H 1050 2377 50  0000 C CNN
+F 1 "DIODE" H 1050 2286 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 1050 2550 50  0001 C CNN
+F 3 "~" H 1050 2550 50  0001 C CNN
+	1    1050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D14
+U 1 1 5CDE3DED
+P 2150 2550
+F 0 "D14" H 2150 2377 50  0000 C CNN
+F 1 "DIODE" H 2150 2286 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 2150 2550 50  0001 C CNN
+F 3 "~" H 2150 2550 50  0001 C CNN
+	1    2150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5CDE3DE7
+P 1950 2350
+F 0 "SW14" V 1996 2302 50  0000 R CNN
+F 1 "SW_Push" V 1905 2302 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 1950 2550 50  0001 C CNN
+F 3 "~" H 1950 2550 50  0001 C CNN
+	1    1950 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D13
+U 1 1 5CDE3DE1
+P 1600 2550
+F 0 "D13" H 1600 2377 50  0000 C CNN
+F 1 "DIODE" H 1600 2286 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 1600 2550 50  0001 C CNN
+F 3 "~" H 1600 2550 50  0001 C CNN
+	1    1600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5CDE3DDB
+P 1400 2350
+F 0 "SW13" V 1446 2302 50  0000 R CNN
+F 1 "SW_Push" V 1355 2302 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 1400 2550 50  0001 C CNN
+F 3 "~" H 1400 2550 50  0001 C CNN
+	1    1400 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 1400 3600 1400
+Connection ~ 3050 1400
+Wire Wire Line
+	2500 1400 3050 1400
+Connection ~ 2500 1400
+Wire Wire Line
+	1950 1400 2500 1400
+Connection ~ 1950 1400
+Wire Wire Line
+	1400 1400 1950 1400
+Connection ~ 1400 1400
+$Comp
+L pspice:DIODE D11
+U 1 1 5CDDB12A
+P 3800 1800
+F 0 "D11" H 3800 1627 50  0000 C CNN
+F 1 "DIODE" H 3800 1536 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 3800 1800 50  0001 C CNN
+F 3 "~" H 3800 1800 50  0001 C CNN
+	1    3800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5CDDB124
+P 3600 1600
+F 0 "SW11" V 3646 1552 50  0000 R CNN
+F 1 "SW_Push" V 3555 1552 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 3600 1800 50  0001 C CNN
+F 3 "~" H 3600 1800 50  0001 C CNN
+	1    3600 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D10
+U 1 1 5CDDB11E
+P 3250 1800
+F 0 "D10" H 3250 1627 50  0000 C CNN
+F 1 "DIODE" H 3250 1536 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 3250 1800 50  0001 C CNN
+F 3 "~" H 3250 1800 50  0001 C CNN
+	1    3250 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5CDDB118
+P 3050 1600
+F 0 "SW10" V 3096 1552 50  0000 R CNN
+F 1 "SW_Push" V 3005 1552 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 3050 1800 50  0001 C CNN
+F 3 "~" H 3050 1800 50  0001 C CNN
+	1    3050 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D9
+U 1 1 5CDDB112
+P 2700 1800
+F 0 "D9" H 2700 1627 50  0000 C CNN
+F 1 "DIODE" H 2700 1536 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 2700 1800 50  0001 C CNN
+F 3 "~" H 2700 1800 50  0001 C CNN
+	1    2700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5CDDB10C
+P 2500 1600
+F 0 "SW9" V 2546 1552 50  0000 R CNN
+F 1 "SW_Push" V 2455 1552 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 2500 1800 50  0001 C CNN
+F 3 "~" H 2500 1800 50  0001 C CNN
+	1    2500 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D6
+U 1 1 5CDDB100
+P 1050 1800
+F 0 "D6" H 1050 1627 50  0000 C CNN
+F 1 "DIODE" H 1050 1536 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 1050 1800 50  0001 C CNN
+F 3 "~" H 1050 1800 50  0001 C CNN
+	1    1050 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D8
+U 1 1 5CDDB0F9
+P 2150 1800
+F 0 "D8" H 2150 1627 50  0000 C CNN
+F 1 "DIODE" H 2150 1536 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 2150 1800 50  0001 C CNN
+F 3 "~" H 2150 1800 50  0001 C CNN
+	1    2150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5CDDB0F3
+P 1950 1600
+F 0 "SW8" V 1996 1552 50  0000 R CNN
+F 1 "SW_Push" V 1905 1552 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 1950 1800 50  0001 C CNN
+F 3 "~" H 1950 1800 50  0001 C CNN
+	1    1950 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D7
+U 1 1 5CDDB0ED
+P 1600 1800
+F 0 "D7" H 1600 1627 50  0000 C CNN
+F 1 "DIODE" H 1600 1536 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 1600 1800 50  0001 C CNN
+F 3 "~" H 1600 1800 50  0001 C CNN
+	1    1600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5CDDB0E7
+P 1400 1600
+F 0 "SW7" V 1446 1552 50  0000 R CNN
+F 1 "SW_Push" V 1355 1552 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 1400 1800 50  0001 C CNN
+F 3 "~" H 1400 1800 50  0001 C CNN
+	1    1400 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 650  3600 650 
+Connection ~ 3050 650 
+Wire Wire Line
+	2500 650  3050 650 
+Connection ~ 2500 650 
+Wire Wire Line
+	1950 650  2500 650 
+Connection ~ 1950 650 
+Wire Wire Line
+	1400 650  1950 650 
+Connection ~ 1400 650 
+$Comp
+L pspice:DIODE D5
+U 1 1 5CDCD2C3
+P 3800 1050
+F 0 "D5" H 3800 877 50  0000 C CNN
+F 1 "DIODE" H 3800 786 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 3800 1050 50  0001 C CNN
+F 3 "~" H 3800 1050 50  0001 C CNN
+	1    3800 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5CDCD2BD
+P 3600 850
+F 0 "SW5" V 3646 802 50  0000 R CNN
+F 1 "SW_Push" V 3555 802 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 3600 1050 50  0001 C CNN
+F 3 "~" H 3600 1050 50  0001 C CNN
+	1    3600 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D4
+U 1 1 5CDCC679
+P 3250 1050
+F 0 "D4" H 3250 877 50  0000 C CNN
+F 1 "DIODE" H 3250 786 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 3250 1050 50  0001 C CNN
+F 3 "~" H 3250 1050 50  0001 C CNN
+	1    3250 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5CDCC673
+P 3050 850
+F 0 "SW4" V 3096 802 50  0000 R CNN
+F 1 "SW_Push" V 3005 802 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 3050 1050 50  0001 C CNN
+F 3 "~" H 3050 1050 50  0001 C CNN
+	1    3050 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D3
+U 1 1 5CDCB18F
+P 2700 1050
+F 0 "D3" H 2700 877 50  0000 C CNN
+F 1 "DIODE" H 2700 786 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 2700 1050 50  0001 C CNN
+F 3 "~" H 2700 1050 50  0001 C CNN
+	1    2700 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5CDCB189
+P 2500 850
+F 0 "SW3" V 2546 802 50  0000 R CNN
+F 1 "SW_Push" V 2455 802 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 2500 1050 50  0001 C CNN
+F 3 "~" H 2500 1050 50  0001 C CNN
+	1    2500 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D0
+U 1 1 5CDC45FE
+P 1050 1050
+F 0 "D0" H 1050 877 50  0000 C CNN
+F 1 "DIODE" H 1050 786 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 1050 1050 50  0001 C CNN
+F 3 "~" H 1050 1050 50  0001 C CNN
+	1    1050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D2
+U 1 1 5CDC9B6D
+P 2150 1050
+F 0 "D2" H 2150 877 50  0000 C CNN
+F 1 "DIODE" H 2150 786 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 2150 1050 50  0001 C CNN
+F 3 "~" H 2150 1050 50  0001 C CNN
+	1    2150 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5CDC9B67
+P 1950 850
+F 0 "SW2" V 1996 802 50  0000 R CNN
+F 1 "SW_Push" V 1905 802 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 1950 1050 50  0001 C CNN
+F 3 "~" H 1950 1050 50  0001 C CNN
+	1    1950 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D1
+U 1 1 5CDC9103
+P 1600 1050
+F 0 "D1" H 1600 877 50  0000 C CNN
+F 1 "DIODE" H 1600 786 50  0000 C CNN
+F 2 "Silicon-Custom:DIODE-1N4148" H 1600 1050 50  0001 C CNN
+F 3 "~" H 1600 1050 50  0001 C CNN
+	1    1600 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5CDC90FD
+P 1400 850
+F 0 "SW1" V 1446 802 50  0000 R CNN
+F 1 "SW_Push" V 1355 802 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 1400 1050 50  0001 C CNN
+F 3 "~" H 1400 1050 50  0001 C CNN
+	1    1400 850 
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2650 4850 2    50   Input ~ 0
+VCC
+Text GLabel 2650 4650 2    50   Input ~ 0
+GND
+$Comp
+L Connector:AudioJack3 J0
+U 1 1 5CEB2F8F
+P 2450 4750
+F 0 "J0" H 2432 5075 50  0000 C CNN
+F 1 "AudioJack3" H 2432 4984 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal" H 2450 4750 50  0001 C CNN
+F 3 "~" H 2450 4750 50  0001 C CNN
+	1    2450 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 3600 4750 2    50   Input ~ 0
+tx
+Text GLabel 3600 4850 2    50   Input ~ 0
+VCC
+Text GLabel 3600 4650 2    50   Input ~ 0
+GND
+$Comp
+L Connector:AudioJack3 J1
+U 1 1 5CE470AF
+P 3400 4750
+F 0 "J1" H 3382 5075 50  0000 C CNN
+F 1 "AudioJack3" H 3382 4984 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal" H 3400 4750 50  0001 C CNN
+F 3 "~" H 3400 4750 50  0001 C CNN
+	1    3400 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 2650 4750 2    50   Input ~ 0
+rx
+$Comp
+L Switch:SW_Push SW25
+U 1 1 5CE62D2A
+P 5450 4700
+F 0 "SW25" H 5450 4985 50  0000 C CNN
+F 1 "SW_Push" H 5450 4894 50  0000 C CNN
+F 2 "TVBP06-B043CW-B:TVBP06B043CWB" H 5450 4900 50  0001 C CNN
+F 3 "~" H 5450 4900 50  0001 C CNN
+	1    5450 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5250 4700 0    50   Input ~ 0
+RESET
+Text GLabel 5650 4700 2    50   Input ~ 0
+GND
+Text GLabel 7150 4600 2    50   Input ~ 0
+VCC
+$Comp
+L SparkFun-Boards:SPARKFUN_PRO_MICRO B0
+U 1 1 5CEB6AD1
+P 6050 2000
+F 0 "B0" H 6050 2910 45  0000 C CNN
+F 1 "SPARKFUN_PRO_MICRO" H 6050 2826 45  0000 C CNN
+F 2 "Boards:SPARKFUN_PRO_MICRO" H 6050 2800 20  0001 C CNN
+F 3 "" H 6050 2000 50  0001 C CNN
+F 4 "XXX-00000" H 6050 2731 60  0000 C CNN "フィールド4"
+	1    6050 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 3600 2    50   Input ~ 0
+col5
+Wire Wire Line
+	800  650  850  650 
+Wire Wire Line
+	850  650  1400 650 
+Connection ~ 850  650 
+Wire Wire Line
+	800  1400 850  1400
+Wire Wire Line
+	850  1400 1400 1400
+Connection ~ 850  1400
+Wire Wire Line
+	800  2150 850  2150
+Wire Wire Line
+	850  2150 1400 2150
+Connection ~ 850  2150
+Wire Wire Line
+	800  2900 850  2900
+Wire Wire Line
+	850  2900 1400 2900
+Connection ~ 850  2900
+Text GLabel 800  650  0    50   Input ~ 0
+row0
+$Comp
+L Switch:SW_Push SW0
+U 1 1 5CDC10E3
+P 850 850
+F 0 "SW0" V 896 802 50  0000 R CNN
+F 1 "SW_Push" V 805 802 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 850 1050 50  0001 C CNN
+F 3 "~" H 850 1050 50  0001 C CNN
+	1    850  850 
+	0    -1   -1   0   
+$EndComp
+Text GLabel 800  1400 0    50   Input ~ 0
+row1
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5CDDB106
+P 850 1600
+F 0 "SW6" V 896 1552 50  0000 R CNN
+F 1 "SW_Push" V 805 1552 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 850 1800 50  0001 C CNN
+F 3 "~" H 850 1800 50  0001 C CNN
+	1    850  1600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 800  2150 0    50   Input ~ 0
+row2
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5CDE3DFA
+P 850 2350
+F 0 "SW12" V 896 2302 50  0000 R CNN
+F 1 "SW_Push" V 805 2302 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 850 2550 50  0001 C CNN
+F 3 "~" H 850 2550 50  0001 C CNN
+	1    850  2350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 800  2900 0    50   Input ~ 0
+row3
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5CDE9B4D
+P 850 3100
+F 0 "SW18" V 896 3052 50  0000 R CNN
+F 1 "SW_Push" V 805 3052 50  0000 R CNN
+F 2 "kailh-pg1425-x-switch:Kailh-PG1425-X-Switch-reversible" H 850 3300 50  0001 C CNN
+F 3 "~" H 850 3300 50  0001 C CNN
+	1    850  3100
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6500 2350 2    50   Input ~ 0
+row1
+Text GLabel 6500 2550 2    50   Input ~ 0
+row3
+Text GLabel 5600 2550 0    50   Input ~ 0
+col6
+Text GLabel 5600 2450 0    50   Input ~ 0
+col5
+Text GLabel 5600 2350 0    50   Input ~ 0
+col4
+Text GLabel 5600 2250 0    50   Input ~ 0
+col3
+Text GLabel 5600 2150 0    50   Input ~ 0
+col2
+Text GLabel 5600 2050 0    50   Input ~ 0
+col1
+Text GLabel 5600 1950 0    50   Input ~ 0
+col0
+Text GLabel 6500 1550 2    50   Input ~ 0
+GND
+Text GLabel 6500 1650 2    50   Input ~ 0
+RESET
+Text GLabel 5600 1550 0    50   Input ~ 0
+rx
+NoConn ~ 6500 1450
+NoConn ~ 6500 1850
+NoConn ~ 5600 1850
+Text GLabel 6500 1750 2    50   Input ~ 0
+VCC
+Text GLabel 7150 4100 2    50   Input ~ 0
+GND
+$Comp
+L power:PWR_FLAG #FLG00
+U 1 1 5CEDB167
+P 7150 4100
+F 0 "#FLG00" H 7150 4175 50  0001 C CNN
+F 1 "PWR_FLAG" H 7150 4273 50  0000 C CNN
+F 2 "" H 7150 4100 50  0001 C CNN
+F 3 "~" H 7150 4100 50  0001 C CNN
+	1    7150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5CEDC9E6
+P 7150 4600
+F 0 "#FLG01" H 7150 4675 50  0001 C CNN
+F 1 "PWR_FLAG" H 7150 4773 50  0000 C CNN
+F 2 "" H 7150 4600 50  0001 C CNN
+F 3 "~" H 7150 4600 50  0001 C CNN
+	1    7150 4600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5650 3200
+Text GLabel 5600 1450 0    50   Input ~ 0
+tx
+NoConn ~ 5600 1650
+NoConn ~ 5600 1750
+NoConn ~ 6500 1950
+NoConn ~ 6500 2050
+NoConn ~ 6500 2150
+Text GLabel 6500 2450 2    50   Input ~ 0
+row2
+Text GLabel 6500 2250 2    50   Input ~ 0
+row0
+$EndSCHEMATC

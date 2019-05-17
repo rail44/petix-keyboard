@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name kailh-pg1425-x-switch)(type KiCad)(uri /Users/s-amemiya/src/github.com/shikamiya/kicad-footprint-kailh-pg1425-x-switch/kailh-pg1425-x-switch.pretty)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri /Users/s-amemiya/src/github.com/keebio/Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name TVBP06-B043CW-B)(type Legacy)(uri /Users/s-amemiya/TVBP06-B043CW-B.mod)(options "")(descr ""))
+  (lib (name Silicon-Custom)(type KiCad)(uri /Users/s-amemiya/src/github.com/sparkfun/SparkFun-KiCad-Libraries/Footprints/Silicon-Custom.pretty)(options "")(descr ""))
+  (lib (name Boards)(type KiCad)(uri /Users/s-amemiya/src/github.com/sparkfun/SparkFun-KiCad-Libraries/Footprints/Boards.pretty)(options "")(descr ""))
+)

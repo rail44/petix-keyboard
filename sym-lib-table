@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SparkFun-Boards)(type Legacy)(uri /Users/s-amemiya/src/github.com/sparkfun/SparkFun-KiCad-Libraries/Libraries/SparkFun-Boards.lib)(options "")(descr ""))
+)
